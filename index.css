@@ -1,9 +1,13 @@
 .card {
-    width: 400px;
+    width: 23%;
     border: 2px solid black;
     border-radius: 25px;
     padding: 10px;
     margin: 10px;
+    box-shadow: 2px 2px 2px 2px bisque;
+   /* display: flex;
+    flex-direction: row;*/
+  
   }
   
   img {
@@ -12,11 +16,11 @@
   }
   
   h2 {
-    color: #d56f3e;
+    color: #ad6405;
   }
   
   span {
-    color: #9d6f24;
+    color: #00004d;
   }
   
   h4 {
@@ -27,4 +31,62 @@
   #pets {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
+  @media (max-width: 500px){
+    #pets {
+          flex-wrap: wrap;
+    }
+  }
+  UL{
+    margin: o;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: #003366;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+  }
+  li {
+    float: left;
+    border-right:1px solid rgb(162, 86, 234);
+  }
+  a {
+    display: block;
+    padding: 0 35px;
+    color: aliceblue;
+  }
+  a:hover {
+    background-color: black;
+  }
+.abc a {
+  justify-content: flex-end;
+}
+ h2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('adopt.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+  letter-spacing: 1.5px;
+  
+} 
+ nav { 
+  color: #bd3d06c0;
+  font-size: normal;
+} 
+h1 {
+  text-align: center;
+  color: black;
+}
+#gold {
+  text-align: center;
+  color: #e6ffff;
+  font-size: normal;
+
+
+}
